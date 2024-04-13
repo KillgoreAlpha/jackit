@@ -7,7 +7,7 @@ from distutils.core import setup
 
 setup(
     name='JackIt',
-    version='0.1.0',
+    version='0.1.1',
     author='infamy and phikshun',
     packages=['jackit', 'jackit.lib', 'jackit.plugins'],
     scripts=['bin/jackit'],
@@ -15,9 +15,9 @@ setup(
     license='BSD',
     description='Exploit framework for MouseJack vulnerability.',
     install_requires=[
-        "click==5.1",
-        "pyusb==1.0.0",
-        "tabulate==0.7.5",
-        "six==1.10.0"
+        "click==8.1.7",
+        "pyusb==1.2.1",
+        "tabulate==0.9.0",
+        "six==1.16.0"
     ],
 )
